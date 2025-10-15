@@ -205,10 +205,10 @@ const WhopRetentionApp = () => {
     window.location.reload();
   };
 
-  const handleLogin = () => {
-    // Redirect to backend OAuth endpoint
-    window.location.href = `${API_URL}/auth/callback?code=test_code`;
-  };
+ const handleLogin = () => {
+  // Use test login endpoint
+  window.location.href = `${API_URL}/auth/test-login`;
+};
 
   if (isLoading) {
     return (
