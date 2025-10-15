@@ -520,3 +520,4 @@ const WhopRetentionApp = () => {
     </div>
   );
 };
+export default WhopRetentionApp;
